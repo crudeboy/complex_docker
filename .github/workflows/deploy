@@ -15,7 +15,7 @@ jobs:
  
       - run: docker build -t jazzwill/multi-client-10-14 ./client
       - run: docker build -t jazzwill/multi-nginx-10-14 ./nginx
-      - run: docker build -t jazzwill/multi-server-10-14 ./server
+      - run: docker build -t jazzwill/multi-server-10-14 ./api
       - run: docker build -t jazzwill/multi-worker-10-14 ./worker
  
       - run: docker push jazzwill/multi-client-10-14
