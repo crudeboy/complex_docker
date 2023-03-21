@@ -1,9 +1,5 @@
 {
-    "AWSEBDockerrunVersion": 3,
-    "Authentication": {
-      "bucket": "elasticbeanstalk-us-east-1-625310771432",
-      "key": "mydockercfg"
-    },
+    "AWSEBDockerrunVersion": 1,
     "containerDefinitions": [
       {
         "name": "client",
