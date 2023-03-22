@@ -4,8 +4,8 @@ services:
     image: "jazzwill/multi-client-10-14"
     mem_limit: 128m
     hostname: client
-  server:
-    image: "jazzwill/multi-server-10-14"
+  api:
+    image: "jazzwill/multi-api-10-14"
     mem_limit: 128m
     hostname: api
     environment:
